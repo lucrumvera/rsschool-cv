@@ -27,7 +27,7 @@ function greet(name) {
 ` ` `
 
    ## Experience
-   ### Digital Art Studio / Etsy Business
+   ### Digital Art Studio
    **Co-Founder and Creative Director**
    *2017 - Present*
 
@@ -53,14 +53,14 @@ Graduated in 2011
 
 ## Courses
 
-## RS School JavaScript / Front-end Course
+## RS School - JavaScript / Front-end Course
 
 *September 2026 - Present*
 
 -JavaScript / Front-end Course (in progress)
 
 ## English
-Level: B1 (actively improving through daily practice and work in an international environment)
+Level: B1 (actively improving)
 
 
   
