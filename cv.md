@@ -20,6 +20,7 @@ I am currently learning frontend development, including HTML, CSS, JavaScript, a
 - VS Code
 
 ## Code Example
+
 ```javascript
 function greet(name) {
   return  `Hello, ${name}!`;
@@ -27,8 +28,11 @@ function greet(name) {
 ```
 
    ## Experience
+   
    ### Digital Art Studio
+   
    **Co-Founder and Creative Director**
+   
    *2017 - Present*
 
    - Created and sold digital illustrations and clipart
