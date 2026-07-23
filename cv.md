@@ -22,9 +22,9 @@ I am currently learning frontend development, including HTML, CSS, JavaScript, a
 ## Code Example
 ```javascript
 function greet(name) {
-  return  `Hello, ${name}! `;
+  return  `Hello, ${name}!`;
 }
-` ` `
+```
 
    ## Experience
    ### Digital Art Studio
