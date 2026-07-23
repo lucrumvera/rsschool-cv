@@ -27,22 +27,22 @@ function greet(name) {
 }
 ```
 
-   ## Experience
+## Experience
    
-   ### Digital Art Studio
+### Digital Art Studio
    
-   **Co-Founder and Creative Director**
+**Co-Founder and Creative Director**
    
-   *2017 - Present*
+*2017 - Present*
 
-   - Created and sold digital illustrations and clipart
-   - Managed customer communication and order processing
-   - Controlled product quality and business operations
-   - Worked remotely and managed projects independently
+- Created and sold digital illustrations and clipart
+- Managed customer communication and order processing
+- Controlled product quality and business operations
+- Worked remotely and managed projects independently
 
 ## Projects
 
-### [CV Project](https://lucrumvera.github.io/rsschool-cv/)
+### [CV Project](https://github.com/lucrumvera/rsschool-cv)
 
 - Created a CV using Markdown
 - Used Git and GitHub for version control
@@ -61,7 +61,7 @@ Graduated in 2011
 
 *September 2026 - Present*
 
--JavaScript / Front-end Course (in progress)
+- JavaScript / Front-end Course (in progress)
 
 ## English
 Level: B1 (actively improving)
