@@ -6,26 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Veranika Tamashevich</h1>
-    <p>Junior Frontend Developer</p>
+  <div class="cv">
 
-    <nav>
-      <ul>
-        <li><a href="#profile">Profile</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#code">Code</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <aside>
+<aside>
       <img src="photo.jpg" alt="Veranika Tamashevich">
 
       <section>
@@ -60,9 +51,37 @@
       </section>
     </aside>
 
+  <div class="right-column">
+
+  <header>
+    <h1>
+      <span class="first-name">Veranika</span>
+      <span class="last-name">Tamashevich</span> 
+    </h1>
+
+    <p class="job-title">Junior Frontend Developer</p>
+
+    <nav>
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#code">Code</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+
     <div class="content">
       <section id="profile">
-        <h2>Profile</h2>
+        <div class="section-heading">
+          <span class="section-icon profile-icon"></span>
+          <h2>Profile</h2>
+          <span class="section-line"></span>
+          </div>
         <p>
           Junior Frontend Developer with a background in design and visual communication.
           I have experience in advertising and running my own creative business, and I am
@@ -124,6 +143,8 @@
       RS School
     </a>
   </footer>
+  </div>
+  </div>
 </body>
 
 
