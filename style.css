@@ -21,7 +21,9 @@ aside {
     width: 32%;
     padding: 32px;
     background: #2f3b46;
-    color: #ffffff;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
   }
 
   .right-column {
@@ -78,7 +80,49 @@ background: #ffffff;
     letter-spacing: 1px;
   }
 
+.section-content {
+  margin-left: 62px;
+  font-size: 16px; 
+  line-height: 1.45;
+  color: #3f4650;
+}
 
+.section-content h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.section-content p {
+  margin: 4px 0 10px;
+}
+.section-content ul {
+  margin: 6px 0 20px;
+  padding-left: 22px;
+}
+.section-content li {
+  margin-bottom: 3px;
+}
+.content section + section {
+  margin-top: 28px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.item-date {
+  flex-shrink: 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.job-role {
+  color: hwb(211 49% 17%);
+}
 .content {
   padding: 32px 40px;
 }
@@ -86,22 +130,33 @@ background: #ffffff;
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .section-heading h2 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  color: #2f3b46;
 }
 
 .section-icon {
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   flex-shrink: 0;
   border-radius: 50%;
   background: #2f3b46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icon img {
+  width: 22px;
+  height: 22px;
 }
 
 .section-line {
@@ -110,39 +165,123 @@ background: #ffffff;
   background: #2f3b46;
 }
 
+#experience ul {
+  margin: 8px 0 18px;
+  padding-left: 20px;
+}
+
+#experience li {
+  margin-bottom: 4px;
+}
+
+#code pre {
+  margin: 0;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #eaf2f8;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background: #ffffff;
+  background: #fff;
 }
 
-aside img {
+.footer-link {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.footer-link:hover {
+  transform: scale(1.08);
+}
+
+.course-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.course-link {
+  color: lch(82.72% 84.04 87.55);
+  text-decoration: none;
+}
+
+.course-link span {
+  white-space: nowrap;
+}
+
+.rsschool-logo {
+  width: 70px;
+  height: auto;
+  display: block;
+}
+
+.profile-photo {
   display: block;
   width: 180px;
   height: 180px;
   margin: 0 auto 28px;
-  border: 4px solid #ffffff;
+  border: 4px solid #fff;
   border-radius: 50%;
   object-fit: cover;
 }
+
+.photo-caption {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+
+.caption-line {
+  width: 70px;
+  height: 1px;
+  margin: 16px auto 32px;
+  background: #fff;
+}
+
 aside section {
   margin-bottom: 28px;
+}
+
+aside section + section {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  padding-top: 24px;
 }
 
 aside h2 {
   margin: 0 0 14px;
   font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 aside ul {
+  list-style: none;
   margin: 0;
   padding-left: 20px;
 }
 
 aside li {
-  margin-bottom: 1.4;
+  margin-bottom: 4px;
+}
+
+aside i {
+  width: 24px;
+  margin-right: 12px;
+  text-align: center;
+}
+
+.contacts li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
