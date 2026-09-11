@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,7 +18,7 @@
     <!-------------------------------------------------Left column--------------------------------------------------------------->
 
     <aside>
-      <img class="profile-photo" src="assets/photo.jpg" alt="User foto">
+      <img class="profile-photo" src="assets/foto VERANIKA TAMASHEVICH.jpg" alt="User foto">
 
       <p class="photo-caption">
         Design meets<br>
@@ -31,12 +30,23 @@
       <section class="contacts">
         <h2>Contacts</h2>
         <ul>
-          <li><i class="fa-solid fa-location-dot"></i> Warsaw, Poland</li>
-          <li><i class="fa-solid fa-envelope"></i> Email: lucrumveraplus@gmail.com</li>
-          <li><i class="fa-brands fa-github"></i> GitHub: lucrumvera</li>
-          <li><i class="fa-brands fa-discord"></i> Discord: Veranika (@lucrumvera)</li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Warsaw, Poland</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>lucrumveraplus@gmail.com</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-github"></i>
+            <span>github.com/lucrumvera</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-discord"></i>
+            <span>Veranika (@lucrumvera)</span>
+          </li>
         </ul>
-
       </section>
 
       <section>
@@ -53,12 +63,17 @@
 
       <section>
         <h2><i class="fa-solid fa-globe"></i>Languages</h2>
-        <ul>
-          <li>Russian — Native</li>
-          <li>English — B1</li>
-          <li>Polish — Intermediate</li>
+        <ul class="languages-list">
+          <li><span>Russian</span><span>Native</span></li>
+          <li><span>English</span><span>B1</span></li>
+          <li><span>Polish</span><span>A2</span></li>
         </ul>
       </section>
+
+      <p class="photo-caption bottom-quote">
+        Always learning<br>
+        Always creating
+      </p>
     </aside>
 
     <!-------------------------------------------------Right column--------------------------------------------------------------->
@@ -105,7 +120,7 @@
             </div>
           </section>
 
-          <section id="experience">
+          <section id="experience" class="experience">
             <div class="section-heading">
               <span class="section-icon">
                 <img src="assets/experience.svg" alt="">
@@ -188,8 +203,8 @@
               <span class="section-line"></span>
             </div>
 
-            <div class="section-content">
-              <pre><code>function greet(name) {
+            <div class="section-content code-content">
+              <pre class="code-block"><code>function greet(name) {
               return `Hello, ${name}!`; 
         }
 
@@ -199,8 +214,9 @@
         </div>
       </main>
       <footer>
-        <a class="footer-link" href="https://github.com/lucrumvera" target="_blank">
-          GitHub
+        <a class="footer-link github-link" href="https://github.com/lucrumvera" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          <span>lucrumvera</span>
         </a>
 
         <span>© 2026</span>
@@ -210,7 +226,10 @@
             Full-Stack Course
           </a>
 
+          <a href="https://rs.school/" target="_blank">
           <img class="rsschool-logo" src="assets/rs-school-logo.svg" alt="RS School logo">
+          </a>
+          
         </div>
       </footer>
     </div>
