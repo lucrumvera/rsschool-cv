@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -8,6 +8,7 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   background: #f3f4f6;
   color: #222;
+  position: relative;
 }
 
 .cv {
@@ -20,71 +21,72 @@ body {
 aside {
   display: flex;
   flex-direction: column;
-    width: 32%;
-    padding: 32px;
-    background: #2f3b46;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-  }
+  width: 32%;
+  padding: 32px;
+  background: #2f3b46;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
 
-  .right-column {
-width: 68%;
-padding-top: 30px;
-background: #ffffff;
-  }
+.right-column {
+  width: 68%;
+  padding-top: 30px;
+  background: #ffffff;
+}
 
-  header {
-    padding: 8px 40px;
-    background: #eaf2f8;
-  }
+header {
+  padding: 8px 40px;
+  background: #eaf2f8;
+}
 
-  header h1 {
-    margin: 0;
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height: 1;
-    color: #111;
-  }
-  .first-name {
-    font-weight: 700;
-  }
+header h1 {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #111;
+}
 
-  .last-name {
-    font-weight: 300;
-  }
+.first-name {
+  font-weight: 700;
+}
 
-  .job-title {
+.last-name {
+  font-weight: 300;
+}
+
+.job-title {
   margin: 8px 0 0;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: 380s;
   text-transform: uppercase;
   letter-spacing: 7px;
-  line-height: 0,5;
+  line-height: 0, 5;
   color: #5d5d5d;
 }
 
-  nav ul {
-    display: flex;
-    gap: 18px;
-    margin: 10px 0 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  nav a {
-    color:#222;
-    text-decoration: none;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
+nav ul {
+  display: flex;
+  gap: 18px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #222;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 .section-content {
   margin-left: 62px;
-  font-size: 16px; 
+  font-size: 16px;
   line-height: 1.45;
   color: #3f4650;
 }
@@ -95,9 +97,11 @@ background: #ffffff;
   font-weight: 700;
   line-height: 1.25;
 }
+
 .section-content p {
   margin: 4px 0 10px;
 }
+
 .section-content ul {
   margin: 6px 0 20px;
   padding-left: 22px;
@@ -106,7 +110,8 @@ background: #ffffff;
 .section-content li {
   margin-bottom: 3px;
 }
-.content section + section {
+
+.content section+section {
   margin-top: 28px;
 }
 
@@ -126,9 +131,11 @@ background: #ffffff;
 .job-role {
   color: hwb(211 49% 17%);
 }
+
 .content {
   padding: 32px 40px;
 }
+
 .section-heading {
   display: flex;
   align-items: center;
@@ -215,7 +222,7 @@ footer {
   display: block;
 }
 
-.rsschool-logo{
+.rsschool-logo {
   width: 70px;
   transition: transform 0.2s ease;
 }
@@ -248,6 +255,7 @@ footer {
   margin: 16px auto 48px;
   background: #fff;
 }
+
 aside li,
 aside p,
 aside span {
@@ -257,10 +265,10 @@ aside span {
 }
 
 aside section {
- margin-bottom: 36px;
+  margin-bottom: 36px;
 }
 
-aside section + section {
+aside section+section {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   padding-top: 24px;
 }
@@ -324,6 +332,7 @@ aside i {
   display: flex;
   justify-content: space-between;
 }
+
 .bottom-quote {
   margin-top: auto;
 }
@@ -346,4 +355,37 @@ aside i {
 
 .github-link span {
   font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  body {
+    padding-top: 174px;
+  }
+
+  .cv {
+    flex-direction: column;
+  }
+
+  .right-column {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 174px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
 }
