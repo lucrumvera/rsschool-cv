@@ -1,0 +1,391 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", sans-serif;
+  background: #f3f4f6;
+  color: #222;
+  position: relative;
+}
+
+.cv {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  padding: 32px;
+  background: #2f3b46;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.right-column {
+  width: 68%;
+  padding-top: 30px;
+  background: #ffffff;
+}
+
+header {
+  padding: 8px 40px;
+  background: #eaf2f8;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #111;
+}
+
+.first-name {
+  font-weight: 700;
+}
+
+.last-name {
+  font-weight: 300;
+}
+
+.job-title {
+  margin: 8px 0 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  line-height: 0.5;
+  color: #5d5d5d;
+}
+
+nav ul {
+  display: flex;
+  gap: 18px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #222;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-content {
+  margin-left: 62px;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #3f4650;
+}
+
+.section-content h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.section-content p {
+  margin: 4px 0 10px;
+}
+
+.section-content ul {
+  margin: 6px 0 20px;
+  padding-left: 22px;
+}
+
+.section-content li {
+  margin-bottom: 3px;
+}
+
+.content section+section {
+  margin-top: 28px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.item-date {
+  flex-shrink: 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.job-role {
+  color: hwb(211 49% 17%);
+}
+
+.content {
+  padding: 32px 40px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #2f3b46;
+}
+
+.section-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #2f3b46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+.section-line {
+  flex-grow: 1;
+  height: 1px;
+  background: #2f3b46;
+}
+
+.code-block {
+  margin: 0;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #eaf2f8;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.footer-link {
+  transition: transform 0.2s ease;
+}
+
+.footer-link:hover {
+  transform: scale(1.08);
+}
+
+.course-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.course-link {
+  color: lch(82.72% 84.04 87.55);
+  text-decoration: none;
+}
+
+.course-link span {
+  white-space: nowrap;
+}
+
+.rsschool-logo {
+  width: 70px;
+  height: auto;
+  display: block;
+}
+
+.rsschool-logo {
+  width: 70px;
+  transition: transform 0.2s ease;
+}
+
+.rsschool-logo:hover {
+  transform: scale(1.08);
+}
+
+.profile-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 28px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.photo-caption {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+
+.caption-line {
+  width: 70px;
+  height: 1px;
+  margin: 16px auto 48px;
+  background: #fff;
+}
+
+aside li,
+aside p,
+aside span {
+  font-size: 15px;
+  line-height: 1.45;
+  font-weight: 300;
+}
+
+aside section {
+  margin-bottom: 36px;
+}
+
+aside section+section {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  padding-top: 24px;
+}
+
+aside h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 14px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+aside ul {
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+aside li {
+  margin-bottom: 4px;
+}
+
+aside i {
+  width: 24px;
+  margin-right: 12px;
+  text-align: center;
+}
+
+.contacts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.contacts li i {
+  width: 18px;
+  flex-shrink: 0;
+  text-align: center;
+  margin: 3px;
+}
+
+.contacts li span {
+  line-height: 1.3;
+}
+
+.languages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.languages-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-quote {
+  margin-top: auto;
+}
+
+.code-content {
+  margin: 16px 0;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #2f3b46;
+}
+
+.github-link i {
+  font-size: 24px;
+}
+
+.github-link span {
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  body {
+    padding-top: 174px;
+  }
+
+  .cv {
+    flex-direction: column;
+  }
+
+  .right-column {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 174px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+}
